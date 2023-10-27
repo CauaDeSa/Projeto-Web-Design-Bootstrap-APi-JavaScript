@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="dark">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lançamentos</title>
+  <link rel="icon" href="./icons/site-logo-removebg-preview.png">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/styles.css">
+  <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+  <script defer src="./js/script.js"></script>
+</head>
+
+<body>
+  <header class="d-flex flex-wrap justify-content-center py-3 border-bottom">
+    <a href="https://www.netflix.com/br/"
+      class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none">
+      <span class="white" id="Header">Muinto Filme</span>
+    </a>
+
+    <div class="pesquisa">
+      <input type="text" class="cabecalho-pesquisa" placeholder="Título da série ou filme" />
+    </div>
+
+    <ul class="nav nav-pills" id="nav-buttons">
+      <li><button class="nav-link pageSetter" id="navButton">Lançamentos</button></li>
+      <li><button class="nav-link pageSetter" id="navButton">Filmes</button></li>
+      <li><button class="nav-link pageSetter" id="navButton">Series</button></li>
+
+      <li>
+        <div class="dropdown">
+          <button class="btn-secondary nav-link" id="navButton" type="button" data-bs-toggle="dropdown"
+            aria-expanded="true">
+            <img class="imagem-menu" id="on" src="./icons/engrenagem.png" alt="">
+          </button>
+
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" id="setColor" href="#">Change Theme</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </header>
+
+  <p class="pageTitle"></p>
+
+  <div class="myContainer">
+    <div class="column">
+      <div class="row">
+              
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>Desenvolvido por Cauã Rufino de Sá</p>
+    <img src="./icons/Copyright.svg" alt="API">
+  </footer>
+
+</body>
+
+</html>
